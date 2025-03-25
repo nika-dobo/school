@@ -29,7 +29,7 @@ body {
       padding-top: 15px;
     }
     .section-1 {
-      margin-top: 150px;  
+      margin-top: 150px;
       margin-bottom: 50px;
       .container {
         display: flex;
@@ -139,6 +139,60 @@ body {
     p {
       margin-top: 50px;
       font-size: 13px;
+    }
+  }
+  .main-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .container-2 {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      img {
+        object-fit: cover;
+        border-radius: 15px;
+      }
+      .info {
+        width: 700px;
+        height: 450px;
+        background: #255b4c;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h1 {
+          font-size: 25px;
+          margin-bottom: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .button {
+      width: 60%;
+      height: 40px;
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+      background: #193e34;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s;
+      p{
+        font-size: 20px;
+      } 
+    }
+    .button:hover{
+      background: #24433a;
+      width: 65%;
+      height: 45px;
+      margin-bottom: -5px;
     }
   }
 }

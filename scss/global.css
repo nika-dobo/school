@@ -276,4 +276,59 @@ body footer h1 {
 body footer p {
   margin-top: 50px;
   font-size: 13px;
+}
+body .main-web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+body .main-web .container-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+body .main-web .container-2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+body .main-web .container-2 .info {
+  width: 700px;
+  height: 450px;
+  background: #255b4c;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body .main-web .container-2 .info h1 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+body .main-web .container-2 .info p {
+  font-size: 20px;
+}
+body .main-web .button {
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background: #193e34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+body .main-web .button p {
+  font-size: 20px;
+}
+body .main-web .button:hover {
+  background: #24433a;
+  width: 65%;
+  height: 45px;
+  margin-bottom: -5px;
 }/*# sourceMappingURL=global.css.map */
